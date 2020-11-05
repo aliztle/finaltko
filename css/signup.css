@@ -1,0 +1,52 @@
+.container{
+  background: #f5f6f6;
+  margin: 10%;
+  padding: 5%;
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;    
+  }
+input{
+  padding: 5px;
+  border-radius: 4px;
+  border: 1.3px solid #9b9b9b;
+  margin: 5px 10px;
+  background-color: transparent;
+  border-radius: 24px;
+  height:25px
+}
+select{
+  padding: 5px;
+  border: 1px solid #9b9b9b;
+  border-radius: 4px;
+}
+
+input:focus,select:focus{
+  outline: none;
+}
+
+.go{
+  width:100px;
+  cursor: pointer;
+  margin-left: 90%;
+}
+
+.go:hover{
+  background-color:#e7afaf;
+  color:white;
+  box-shadow: 0 0 20px #e7afaf;
+  border:none;
+}
+
+.container{
+  width:50%;
+  margin-left:20%;
+  margin-top:1%px;
+}
